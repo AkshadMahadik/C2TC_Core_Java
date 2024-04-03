@@ -1,0 +1,26 @@
+package com.java.core;
+import java.util.*;
+
+public class DefaultConstructor {
+
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter Number");
+		int id = sc.nextInt();
+		System.out.println("Enter Name");
+		String name = sc.next();
+		System.out.println("Enter City");
+		String city = sc.next();
+		
+		Customer cl=new Customer(id,name,city);
+		cl.setCustomerID(id);
+		cl.setCustomerName(name);
+		cl.setCustomerCity(city);
+		
+		System.out.println("Customer Details"+cl.toString());
+		
+		sc.close();
+		
+	}
+
+}
