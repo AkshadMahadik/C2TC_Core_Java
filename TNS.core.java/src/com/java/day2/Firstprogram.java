@@ -1,4 +1,4 @@
-package com.java.core;
+package com.java.day2;
 
 public class Firstprogram {
 	public static void main (String args[]) {
