@@ -1,4 +1,4 @@
-package com.java.day3;
+package com.java.day.three;
 
 public class Person {
 	private String FirstName;
@@ -24,7 +24,7 @@ public class Person {
 	public void setLastName(String lastName) {
 		LastName = lastName;
 	}
-	public com.java.day3.Address getAddress() {
+	public com.java.day.three.Address getAddress() {
 		return Address;
 	}
 	public void setAddress(Address address) {

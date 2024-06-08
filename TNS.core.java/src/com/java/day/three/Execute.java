@@ -1,4 +1,4 @@
-package com.java.day3;
+package com.java.day.three;
 
 //Demo on "Has a " Relationship 
 public class Execute {

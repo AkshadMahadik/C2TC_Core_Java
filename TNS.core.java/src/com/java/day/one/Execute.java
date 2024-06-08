@@ -1,4 +1,4 @@
-package com.java.day1;
+package com.java.day.one;
 
 public class Execute {
 

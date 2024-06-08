@@ -1,4 +1,4 @@
-package com.java.day3;
+package com.java.day.three;
 
 public class Address {
 	private String street;
