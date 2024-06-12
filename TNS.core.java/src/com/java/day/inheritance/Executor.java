@@ -1,4 +1,4 @@
-package com.java.day.four;
+package com.java.day.inheritance;
 
 public class Executor {
 

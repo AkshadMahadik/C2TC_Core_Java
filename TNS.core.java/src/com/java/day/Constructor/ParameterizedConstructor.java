@@ -1,8 +1,8 @@
-package com.java.day.two;
-import java.util.*;
+package com.java.day.Constructor;
 
-public class DefaultConstructor {
+import java.util.Scanner;
 
+public class ParameterizedConstructor {
 	public static void main(String[] args) {
 		Scanner sc =new Scanner(System.in);
 		System.out.println("Enter Number");
@@ -12,15 +12,10 @@ public class DefaultConstructor {
 		System.out.println("Enter City");
 		String city = sc.next();
 		
-		Customer cl=new Customer(id,name,city);
-		cl.setCustomerID(id);
-		cl.setCustomerName(name);
-		cl.setCustomerCity(city);
-		
+		Customer cl=new Customer(id,name,city);	
 		System.out.println("Customer Details"+cl.toString());
 		
 		sc.close();
 		
 	}
-
 }
